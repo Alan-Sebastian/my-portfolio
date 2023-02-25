@@ -1,0 +1,32 @@
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.education .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #10a5e0;
+    position: relative;
+}
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background: #19191a;
+    color: #eff4f8;
+    border-radius: 4rem;
+    padding:.5rem 2.5rem;
+}
+.education .box-container .box i{
+    position: absolute;
+    top: -1.5rem;left:-2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: var(--blue);
+}
